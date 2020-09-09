@@ -1,0 +1,124 @@
+/*COMMON CSS*/
+body {
+    font-family: 'Oswald', sans-serif;
+    height: 2000px;
+    
+}
+.title {
+    text-align: center; background-color: #ff005b;
+    width: 150px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 5px;
+    transform: skewX(-20deg);
+    font-size: 1.3em;
+    color: white;
+
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+.line {
+   
+    position: absolute;
+    z-index: -1;
+    top: 117px;
+    width: 80%; 
+    border: 0.1px solid #555555;
+  
+    
+}
+.flex-row {
+    display: flex;
+}
+.flex-row--reverse {
+    flex-direction: row-reverse;
+}
+.more-news div>span { 
+    color: #555555;
+    font-size: 0.9em;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.more-news hr {
+    transform: translateX(-35px) translateY(5px);
+}
+.more-news a {
+    text-decoration: none;
+    color: #222222;
+    opacity: 0.8;
+}
+.more-news h2 {
+    color: #222222;
+}
+.more-news h2:hover {
+    color: #777777;
+}
+.more-news a:hover  {
+opacity: 1;
+color: #777777;
+
+}
+
+/*MORE NEWS CSS*/
+.more-news {/*background-color: #ddd;*/
+    width: 90%;
+    margin: 0 auto;
+
+}
+.more-news__content {
+    width: 80%;
+    margin-right: 5%;
+    align-items: center;
+    
+}
+.more-news__content img {
+    padding: 15px;
+    margin-right: 25px;
+    width: 500px;
+    height: 300px;
+    
+}
+.more-news h2 {
+    color: #222222;
+    font-size: 2em;
+    font-weight: 700;
+   line-height: 1.1;
+    letter-spacing: -.02em;
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+}
+
+.more-news .news--teaser p {
+    color: #555555; 
+    font-size: 1.45em;
+    font-weight: 200;
+    letter-spacing: 0.07em;
+    line-height: 1.4;
+    margin-top: 0.5em;
+
+}
+.more-news__aside img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.more-news__aside {
+    align-self: start;
+    position: sticky;
+    top: 100px;
+   transition: 0.5s;
+   
+}
+.more-news__aside h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+
+    
+ 
